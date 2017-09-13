@@ -8,7 +8,12 @@
   </head>
 
   <body>
-    <div id="box1"></div>
+    <table>
+      <tr>
+        <td><button type="button" class="box" id="box1" onmouseover="highlight('box1')" onmouseleave="unhighlight('box1')" onClick="onClickColor('box1')">.</button></td>
+        <td><button type="button" class="box" id="box2" onmouseover="highlight('box2')" onmouseleave="unhighlight('box2')" onClick="onClickColor('box2')">.</button></td>
+    </tr>
+    </table>
   </body>
 
   <script src="matching.js"></script>
